@@ -20,8 +20,8 @@ def mini_m(node):
 		return g_mini
 class Node:
     def __init__(self, val=None, children=None, label=""):
-        self.val = val  # Value at this node; meaningful for leaf nodes
-        self.llist = children if children else []  # List of child nodes
+        self.val = val
+        self.llist = children if children else []
         self.label=label
 
 def main():
@@ -64,3 +64,4 @@ def main():
 if __name__ == "__main__":
 
 	main()
+
