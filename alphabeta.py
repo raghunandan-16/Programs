@@ -30,15 +30,15 @@ def minimax(node, depth, is_maximizing, alpha, beta):
         return best_val
 
 def create_tree():
-    leaf1 = Node(val=1, label="1")
-    leaf2 = Node(val=2, label="2")
-    leaf3 = Node(val=3, label="3")
-    leaf4 = Node(val=4, label="4")
-    leaf5 = Node(val=5, label="5")
-    leaf6 = Node(val=6, label="6")
-    leaf7 = Node(val=7, label="7")
-    leaf8 = Node(val=8, label="8")
-    leaf9 = Node(val=9, label="9")
+    leaf1 = Node(val=1, label="112")
+    leaf2 = Node(val=2, label="22")
+    leaf3 = Node(val=3, label="34")
+    leaf4 = Node(val=4, label="46")
+    leaf5 = Node(val=5, label="58")
+    leaf6 = Node(val=6, label="60")
+    leaf7 = Node(val=7, label="711")
+    leaf8 = Node(val=8, label="28")
+    leaf9 = Node(val=9, label="59")
 
     childL = Node(children=[leaf9], label="L")   
     childM = Node(children=[leaf1, leaf2], label="M")
@@ -70,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
