@@ -26,15 +26,15 @@ class Node:
 
 def main():
 
-	leaf1 = Node(val=1,label="1")
-	leaf2 = Node(val=2,label="2")
-	leaf3 = Node(val=3,label="3")
-	leaf4 = Node(val=4,label="4")
-	leaf5 = Node(val=5,label="5")
-	leaf6 = Node(val=6,label="6")
-	leaf7 = Node(val=7,label="7")
-	leaf8 = Node(val=8,label="8")
-	leaf9 = Node(val=9,label="9")
+	leaf1 = Node(val=1,label="111")
+	leaf2 = Node(val=2,label="28")
+	leaf3 = Node(val=3,label="75")
+	leaf4 = Node(val=4,label="62")
+	leaf5 = Node(val=5,label="51")
+	leaf6 = Node(val=6,label="42")
+	leaf7 = Node(val=7,label="324")
+	leaf8 = Node(val=8,label="26")
+	leaf9 = Node(val=9,label="13")
 	childL = Node(children=[leaf9],label="L")   
 	childM = Node(children=[leaf1, leaf2],label="M")
 	childN = Node(children=[leaf1,leaf5,leaf9],label="N")
@@ -62,4 +62,5 @@ def main():
 	print("Minimax value of the tree:", result)
 
 if __name__ == "__main__":
+
 	main()
